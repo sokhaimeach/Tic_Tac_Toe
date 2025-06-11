@@ -64,6 +64,7 @@ function checkWinner() {
         }
     }
     if (roundWin){
+        currentPlayer = (currentPlayer == "X") ? "O" : "X";
         statusText.textContent = `${currentPlayer} win!`;
         running = false;
     } else if (!options.includes("")){
