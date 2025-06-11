@@ -70,7 +70,7 @@ function checkWinner() {
         statusText.textContent = `Draw!`;
         running = false;
     } else {
-        changePlayer();
+        // changePlayer();
     }
 }
 
